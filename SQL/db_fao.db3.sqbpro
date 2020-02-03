@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Lolo/Jupyter_Projects/OC/3_new_IBM/data/db_fao.db3" foreign_keys="1"/><window><current_tab id="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="125"/><column_width id="3" width="2068"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="dispo_alim"/><default_encoding codec=""/><browsetable_info data="AAAAAgAAABQAcABvAHAAdQBsAGEAdABpAG8AbgAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////AAAAAP////8AAAAUAGQAaQBzAHAAbwBfAGEAbABpAG0AAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////wAAAAD/////"/></tab_browse><tab_sql><sql name="SQL 11">-- 1.1 - Les 10 pays ayant le plus haut ratio disponibilité alimentaire/habitant en termes de protéines (en kg) par habitant
+SELECT ctry_cd, country, year, SUM(protein_g_cap_d/1000) AS ratio_prot_kg
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+AND year = 2013 
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_prot_kg DESC
+--LIMIT 10</sql><sql name="SQL 6">-- 1.2 - Les 10 pays ayant le plus haut ratio disponibilité alimentaire/habitant en termes de kcal par habitant
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+--WHERE ctry_cd = 351
+AND year = 2013 
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10</sql><sql name="SQL 2">--3 - la quantité totale (en kg) de produits perdus par pays et par année
+SELECT country, year, SUM(losses_t_ctry_y) *1000 AS losses_kg
+FROM equilibre_prod
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+
+GROUP BY country, year
+ORDER BY year, losses_kg DESC</sql><sql name="SQL 3">-- 4 - les 10 pays pour lesquels la proportion de personnes sous-alimentées est la plus forte
+SELECT population.country, SUM(sous_nutrition.undernourished), SUM(population.pop)
+
+FROM sous_nutrition AS s
+
+LEFT JOIN population AS p ON (s.country = p.country) AND (s.year = p.year)
+GROUP BY s.country, s.year
+
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+</sql><sql name="SQL 12">-- 4 - les 10 pays pour lesquels la proportion de personnes sous-alimentées est la plus forte
+SELECT s.country, s.year, s.undernourished, p.pop as ratio FROM sous_nutrition s
+
+inner join population p on(s.ctry_cd = p.ctry_cd) AND (s.year = p.year)
+
+GROUP BY s.country, s.year
+
+HAVING undernourished != ''</sql><sql name="SQL 7">SELECT *
+  FROM ( SELECT *
+           FROM ventes
+          WHERE date_vente &lt;= ?
+            AND NOT (date_vente = ? AND id_vente &gt;= ?)
+          ORDER BY date_vente DESC, id_vente DESC
+       )
+ WHERE rownum &lt;= 10</sql><sql name="SQL 8">-- 1.2 - Les 10 pays ayant le plus haut ratio disponibilité alimentaire/habitant en termes de kcal par habitant
+SELECT ctry_cd, country, year, item, food_kcal_cap_d AS ratio_kcal
+FROM dispo_alim
+--WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+WHERE ctry_cd = 351
+AND ratio_kcal &lt;&gt; ''
+AND year = 2013
+
+GROUP BY ctry_cd, country, year, item
+ORDER BY ratio_kcal DESC
+</sql><sql name="SQL 9">SELECT *
+FROM dispo_alim
+
+WHERE country = 'China'
+AND item_cd = 2511
+AND year = 2010 
+
+ORDER BY food_kcal_cap_d DESC
+LIMIT = 10</sql><sql name="SQL 11">SELECT ctry_cd, country, year, food_kcal_cap_d AS ratio_kcal
+FROM dispo_alim
+WHERE year = 2010
+AND food_kcal_cap_d &lt;&gt; ''
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10
+
+</sql><sql name="SQL 12">IF year = 2010
+
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+ELSE IF year = 2011
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+ELSE IF year = 2012
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+
+ELSE 
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+
+GROUP BY ctry_cd, country, year
+ORDER BY ratio_kcal DESC
+LIMIT 10;</sql><sql name="SQL 13">
+SELECT ctry_cd, country, year, SUM(food_kcal_cap_d) AS ratio_kcal
+
+FROM dispo_alim
+WHERE ctry_cd NOT IN (96, 128, 41, 214) --exclusion des pays qui constituent l'agrégat 'China'
+GROUP BY ctry_cd, country, year
+
+IF year = 2010
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+ELSE IF year = 2011
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+ELSE IF year = 2012
+ORDER BY ratio_kcal DESC
+LIMIT 10;
+
+ELSE 
+ORDER BY ratio_kcal DESC
+LIMIT 10;</sql><current_tab id="10"/></tab_sql></sqlb_project>

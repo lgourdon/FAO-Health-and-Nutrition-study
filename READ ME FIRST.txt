@@ -1,0 +1,12 @@
+Dans le dossier P3, vous trouverez :
+
+- au premier niveau, les books Jupyter, le fichier READ ME FIRST ainsi que la présentation powerpoint
+- dans le dossier data, tous les fichiers csv ainsi que la base SQL db_fao.db3
+- dans le dossier html les books Jupiter au format html
+- dans SQL, les querries db_fao.db3.sqbpro qui seront expliquées lors de la soutenance
+
+Bonne lecture !
+
+Laurent Gourdon
+lgourdon@gmail.com
++34 659 34 05 15

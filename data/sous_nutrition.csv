@@ -1,0 +1,836 @@
+ctry_cd,country,year,undernourished
+2,Afghanistan,2012,7200000.0
+2,Afghanistan,2013,8100000.0
+2,Afghanistan,2014,9000000.0
+2,Afghanistan,2015,9900000.0
+2,Afghanistan,2016,10500000.0
+3,Albania,2012,200000.0
+3,Albania,2013,200000.0
+3,Albania,2014,200000.0
+3,Albania,2015,200000.0
+3,Albania,2016,200000.0
+4,Algeria,2012,1900000.0
+4,Algeria,2013,1800000.0
+4,Algeria,2014,1800000.0
+4,Algeria,2015,1900000.0
+4,Algeria,2016,1900000.0
+7,Angola,2012,8800000.0
+7,Angola,2013,8000000.0
+7,Angola,2014,7300000.0
+7,Angola,2015,6900000.0
+7,Angola,2016,6900000.0
+9,Argentina,2012,1600000.0
+9,Argentina,2013,1500000.0
+9,Argentina,2014,1500000.0
+9,Argentina,2015,1600000.0
+9,Argentina,2016,1700000.0
+1,Armenia,2012,100000.0
+1,Armenia,2013,100000.0
+1,Armenia,2014,100000.0
+1,Armenia,2015,100000.0
+1,Armenia,2016,100000.0
+10,Australia,2012,
+10,Australia,2013,
+10,Australia,2014,
+10,Australia,2015,
+10,Australia,2016,
+11,Austria,2012,
+11,Austria,2013,
+11,Austria,2014,
+11,Austria,2015,
+11,Austria,2016,
+52,Azerbaijan,2012,
+52,Azerbaijan,2013,
+52,Azerbaijan,2014,
+52,Azerbaijan,2015,
+52,Azerbaijan,2016,
+16,Bangladesh,2012,26500000.0
+16,Bangladesh,2013,26400000.0
+16,Bangladesh,2014,26200000.0
+16,Bangladesh,2015,25500000.0
+16,Bangladesh,2016,24800000.0
+14,Barbados,2012,
+14,Barbados,2013,
+14,Barbados,2014,
+14,Barbados,2015,
+14,Barbados,2016,
+57,Belarus,2012,
+57,Belarus,2013,
+57,Belarus,2014,
+57,Belarus,2015,
+57,Belarus,2016,
+255,Belgium,2012,
+255,Belgium,2013,
+255,Belgium,2014,
+255,Belgium,2015,
+255,Belgium,2016,
+23,Belize,2012,
+23,Belize,2013,
+23,Belize,2014,
+23,Belize,2015,
+23,Belize,2016,
+53,Benin,2012,1100000.0
+53,Benin,2013,1000000.0
+53,Benin,2014,1000000.0
+53,Benin,2015,1100000.0
+53,Benin,2016,1100000.0
+19,Bolivia (Plurinational State of),2012,2300000.0
+19,Bolivia (Plurinational State of),2013,2200000.0
+19,Bolivia (Plurinational State of),2014,2100000.0
+19,Bolivia (Plurinational State of),2015,2100000.0
+19,Bolivia (Plurinational State of),2016,2200000.0
+80,Bosnia and Herzegovina,2012,
+80,Bosnia and Herzegovina,2013,
+80,Bosnia and Herzegovina,2014,
+80,Bosnia and Herzegovina,2015,
+80,Bosnia and Herzegovina,2016,
+20,Botswana,2012,500000.0
+20,Botswana,2013,500000.0
+20,Botswana,2014,600000.0
+20,Botswana,2015,600000.0
+20,Botswana,2016,600000.0
+21,Brazil,2012,
+21,Brazil,2013,
+21,Brazil,2014,
+21,Brazil,2015,
+21,Brazil,2016,
+26,Brunei Darussalam,2012,
+26,Brunei Darussalam,2013,
+26,Brunei Darussalam,2014,
+26,Brunei Darussalam,2015,
+26,Brunei Darussalam,2016,
+27,Bulgaria,2012,400000.0
+27,Bulgaria,2013,300000.0
+27,Bulgaria,2014,300000.0
+27,Bulgaria,2015,200000.0
+27,Bulgaria,2016,200000.0
+233,Burkina Faso,2012,3400000.0
+233,Burkina Faso,2013,3500000.0
+233,Burkina Faso,2014,3600000.0
+233,Burkina Faso,2015,3800000.0
+233,Burkina Faso,2016,4000000.0
+35,Cabo Verde,2012,
+35,Cabo Verde,2013,
+35,Cabo Verde,2014,
+35,Cabo Verde,2015,
+35,Cabo Verde,2016,
+115,Cambodia,2012,2800000.0
+115,Cambodia,2013,2800000.0
+115,Cambodia,2014,2900000.0
+115,Cambodia,2015,2900000.0
+115,Cambodia,2016,2900000.0
+32,Cameroon,2012,1800000.0
+32,Cameroon,2013,1600000.0
+32,Cameroon,2014,1400000.0
+32,Cameroon,2015,1500000.0
+32,Cameroon,2016,1700000.0
+33,Canada,2012,
+33,Canada,2013,
+33,Canada,2014,
+33,Canada,2015,
+33,Canada,2016,
+37,Central African Republic,2012,1700000.0
+37,Central African Republic,2013,2100000.0
+37,Central African Republic,2014,2500000.0
+37,Central African Republic,2015,2700000.0
+37,Central African Republic,2016,2800000.0
+39,Chad,2012,4800000.0
+39,Chad,2013,4900000.0
+39,Chad,2014,5000000.0
+39,Chad,2015,5400000.0
+39,Chad,2016,5700000.0
+40,Chile,2012,700000.0
+40,Chile,2013,600000.0
+40,Chile,2014,600000.0
+40,Chile,2015,600000.0
+40,Chile,2016,600000.0
+351,China,2012,146200000.0
+351,China,2013,137300000.0
+351,China,2014,129699999.99999999
+351,China,2015,125600000.0
+351,China,2016,124500000.0
+96,"China, Hong Kong SAR",2012,
+96,"China, Hong Kong SAR",2013,
+96,"China, Hong Kong SAR",2014,
+96,"China, Hong Kong SAR",2015,
+96,"China, Hong Kong SAR",2016,
+128,"China, Macao SAR",2012,
+128,"China, Macao SAR",2013,
+128,"China, Macao SAR",2014,
+128,"China, Macao SAR",2015,
+128,"China, Macao SAR",2016,
+41,"China, mainland",2012,145000000.0
+41,"China, mainland",2013,136200000.0
+41,"China, mainland",2014,128600000.0
+41,"China, mainland",2015,124600000.0
+41,"China, mainland",2016,123500000.0
+214,"China, Taiwan Province of",2012,1000000.0
+214,"China, Taiwan Province of",2013,1000000.0
+214,"China, Taiwan Province of",2014,900000.0
+214,"China, Taiwan Province of",2015,800000.0
+214,"China, Taiwan Province of",2016,800000.0
+44,Colombia,2012,4700000.0
+44,Colombia,2013,4200000.0
+44,Colombia,2014,3800000.0
+44,Colombia,2015,3400000.0
+44,Colombia,2016,3200000.0
+46,Congo,2012,1800000.0
+46,Congo,2013,1800000.0
+46,Congo,2014,1900000.0
+46,Congo,2015,1900000.0
+46,Congo,2016,1900000.0
+48,Costa Rica,2012,200000.0
+48,Costa Rica,2013,300000.0
+48,Costa Rica,2014,300000.0
+48,Costa Rica,2015,200000.0
+48,Costa Rica,2016,200000.0
+107,Côte d'Ivoire,2012,4600000.0
+107,Côte d'Ivoire,2013,4700000.0
+107,Côte d'Ivoire,2014,4800000.0
+107,Côte d'Ivoire,2015,4900000.0
+107,Côte d'Ivoire,2016,4900000.0
+98,Croatia,2012,
+98,Croatia,2013,
+98,Croatia,2014,
+98,Croatia,2015,
+98,Croatia,2016,
+49,Cuba,2012,
+49,Cuba,2013,
+49,Cuba,2014,
+49,Cuba,2015,
+49,Cuba,2016,
+50,Cyprus,2012,
+50,Cyprus,2013,
+50,Cyprus,2014,
+50,Cyprus,2015,
+50,Cyprus,2016,
+167,Czechia,2012,
+167,Czechia,2013,
+167,Czechia,2014,
+167,Czechia,2015,
+167,Czechia,2016,
+116,Democratic People's Republic of Korea,2012,10400000.0
+116,Democratic People's Republic of Korea,2013,10400000.0
+116,Democratic People's Republic of Korea,2014,10600000.0
+116,Democratic People's Republic of Korea,2015,10800000.0
+116,Democratic People's Republic of Korea,2016,11000000.0
+54,Denmark,2012,
+54,Denmark,2013,
+54,Denmark,2014,
+54,Denmark,2015,
+54,Denmark,2016,
+72,Djibouti,2012,200000.0
+72,Djibouti,2013,200000.0
+72,Djibouti,2014,200000.0
+72,Djibouti,2015,200000.0
+72,Djibouti,2016,200000.0
+55,Dominica,2012,
+55,Dominica,2013,
+55,Dominica,2014,
+55,Dominica,2015,
+55,Dominica,2016,
+56,Dominican Republic,2012,1400000.0
+56,Dominican Republic,2013,1300000.0
+56,Dominican Republic,2014,1200000.0
+56,Dominican Republic,2015,1200000.0
+56,Dominican Republic,2016,1100000.0
+58,Ecuador,2012,1300000.0
+58,Ecuador,2013,1300000.0
+58,Ecuador,2014,1300000.0
+58,Ecuador,2015,1300000.0
+58,Ecuador,2016,1300000.0
+59,Egypt,2012,3900000.0
+59,Egypt,2013,3900000.0
+59,Egypt,2014,4000000.0
+59,Egypt,2015,4300000.0
+59,Egypt,2016,4600000.0
+60,El Salvador,2012,800000.0
+60,El Salvador,2013,700000.0
+60,El Salvador,2014,700000.0
+60,El Salvador,2015,700000.0
+60,El Salvador,2016,700000.0
+63,Estonia,2012,
+63,Estonia,2013,
+63,Estonia,2014,
+63,Estonia,2015,
+63,Estonia,2016,
+209,Eswatini,2012,300000.0
+209,Eswatini,2013,300000.0
+209,Eswatini,2014,300000.0
+209,Eswatini,2015,300000.0
+209,Eswatini,2016,300000.0
+238,Ethiopia,2012,26800000.0
+238,Ethiopia,2013,25500000.0
+238,Ethiopia,2014,24000000.0
+238,Ethiopia,2015,22800000.0
+238,Ethiopia,2016,21900000.0
+66,Fiji,2012,
+66,Fiji,2013,
+66,Fiji,2014,
+66,Fiji,2015,
+66,Fiji,2016,
+67,Finland,2012,
+67,Finland,2013,
+67,Finland,2014,
+67,Finland,2015,
+67,Finland,2016,
+68,France,2012,
+68,France,2013,
+68,France,2014,
+68,France,2015,
+68,France,2016,
+70,French Polynesia,2012,
+70,French Polynesia,2013,
+70,French Polynesia,2014,
+70,French Polynesia,2015,
+70,French Polynesia,2016,
+74,Gabon,2012,200000.0
+74,Gabon,2013,200000.0
+74,Gabon,2014,200000.0
+74,Gabon,2015,200000.0
+74,Gabon,2016,200000.0
+75,Gambia,2012,200000.0
+75,Gambia,2013,200000.0
+75,Gambia,2014,200000.0
+75,Gambia,2015,200000.0
+75,Gambia,2016,200000.0
+73,Georgia,2012,300000.0
+73,Georgia,2013,300000.0
+73,Georgia,2014,300000.0
+73,Georgia,2015,300000.0
+73,Georgia,2016,300000.0
+79,Germany,2012,
+79,Germany,2013,
+79,Germany,2014,
+79,Germany,2015,
+79,Germany,2016,
+81,Ghana,2012,1500000.0
+81,Ghana,2013,1700000.0
+81,Ghana,2014,1700000.0
+81,Ghana,2015,1700000.0
+81,Ghana,2016,1700000.0
+84,Greece,2012,
+84,Greece,2013,
+84,Greece,2014,
+84,Greece,2015,
+84,Greece,2016,
+89,Guatemala,2012,2500000.0
+89,Guatemala,2013,2600000.0
+89,Guatemala,2014,2600000.0
+89,Guatemala,2015,2600000.0
+89,Guatemala,2016,2600000.0
+90,Guinea,2012,1900000.0
+90,Guinea,2013,1900000.0
+90,Guinea,2014,2000000.0
+90,Guinea,2015,2200000.0
+90,Guinea,2016,2400000.0
+175,Guinea-Bissau,2012,400000.0
+175,Guinea-Bissau,2013,400000.0
+175,Guinea-Bissau,2014,400000.0
+175,Guinea-Bissau,2015,500000.0
+175,Guinea-Bissau,2016,500000.0
+91,Guyana,2012,
+91,Guyana,2013,
+91,Guyana,2014,
+91,Guyana,2015,
+91,Guyana,2016,
+93,Haiti,2012,5100000.0
+93,Haiti,2013,5200000.0
+93,Haiti,2014,5200000.0
+93,Haiti,2015,5100000.0
+93,Haiti,2016,5000000.0
+95,Honduras,2012,1300000.0
+95,Honduras,2013,1300000.0
+95,Honduras,2014,1400000.0
+95,Honduras,2015,1400000.0
+95,Honduras,2016,1400000.0
+97,Hungary,2012,
+97,Hungary,2013,
+97,Hungary,2014,
+97,Hungary,2015,
+97,Hungary,2016,
+99,Iceland,2012,
+99,Iceland,2013,
+99,Iceland,2014,
+99,Iceland,2015,
+99,Iceland,2016,
+100,India,2012,217500000.0
+100,India,2013,213100000.0
+100,India,2014,206500000.0
+100,India,2015,199800000.0
+100,India,2016,195900000.0
+101,Indonesia,2012,21300000.0
+101,Indonesia,2013,19100000.0
+101,Indonesia,2014,17700000.0
+101,Indonesia,2015,18800000.0
+101,Indonesia,2016,20200000.0
+102,Iran (Islamic Republic of),2012,4300000.0
+102,Iran (Islamic Republic of),2013,4200000.0
+102,Iran (Islamic Republic of),2014,4099999.9999999995
+102,Iran (Islamic Republic of),2015,4000000.0
+102,Iran (Islamic Republic of),2016,4000000.0
+103,Iraq,2012,8800000.0
+103,Iraq,2013,9300000.0
+103,Iraq,2014,9700000.0
+103,Iraq,2015,10100000.0
+103,Iraq,2016,10300000.0
+104,Ireland,2012,
+104,Ireland,2013,
+104,Ireland,2014,
+104,Ireland,2015,
+104,Ireland,2016,
+105,Israel,2012,
+105,Israel,2013,
+105,Israel,2014,
+105,Israel,2015,
+105,Israel,2016,
+106,Italy,2012,
+106,Italy,2013,
+106,Italy,2014,
+106,Italy,2015,
+106,Italy,2016,
+109,Jamaica,2012,300000.0
+109,Jamaica,2013,300000.0
+109,Jamaica,2014,300000.0
+109,Jamaica,2015,300000.0
+109,Jamaica,2016,300000.0
+110,Japan,2012,
+110,Japan,2013,
+110,Japan,2014,
+110,Japan,2015,
+110,Japan,2016,
+112,Jordan,2012,800000.0
+112,Jordan,2013,900000.0
+112,Jordan,2014,1100000.0
+112,Jordan,2015,1200000.0
+112,Jordan,2016,1300000.0
+108,Kazakhstan,2012,
+108,Kazakhstan,2013,
+108,Kazakhstan,2014,
+108,Kazakhstan,2015,
+108,Kazakhstan,2016,
+114,Kenya,2012,9400000.0
+114,Kenya,2013,9300000.0
+114,Kenya,2014,9600000.0
+114,Kenya,2015,10600000.0
+114,Kenya,2016,11700000.0
+83,Kiribati,2012,
+83,Kiribati,2013,
+83,Kiribati,2014,
+83,Kiribati,2015,
+83,Kiribati,2016,
+118,Kuwait,2012,
+118,Kuwait,2013,
+118,Kuwait,2014,
+118,Kuwait,2015,
+118,Kuwait,2016,
+113,Kyrgyzstan,2012,400000.0
+113,Kyrgyzstan,2013,400000.0
+113,Kyrgyzstan,2014,400000.0
+113,Kyrgyzstan,2015,400000.0
+113,Kyrgyzstan,2016,400000.0
+120,Lao People's Democratic Republic,2012,1200000.0
+120,Lao People's Democratic Republic,2013,1200000.0
+120,Lao People's Democratic Republic,2014,1100000.0
+120,Lao People's Democratic Republic,2015,1100000.0
+120,Lao People's Democratic Republic,2016,1100000.0
+119,Latvia,2012,
+119,Latvia,2013,
+119,Latvia,2014,
+119,Latvia,2015,
+119,Latvia,2016,
+121,Lebanon,2012,400000.0
+121,Lebanon,2013,500000.0
+121,Lebanon,2014,600000.0
+121,Lebanon,2015,600000.0
+121,Lebanon,2016,700000.0
+122,Lesotho,2012,300000.0
+122,Lesotho,2013,300000.0
+122,Lesotho,2014,300000.0
+122,Lesotho,2015,300000.0
+122,Lesotho,2016,300000.0
+123,Liberia,2012,1600000.0
+123,Liberia,2013,1600000.0
+123,Liberia,2014,1700000.0
+123,Liberia,2015,1700000.0
+123,Liberia,2016,1800000.0
+126,Lithuania,2012,
+126,Lithuania,2013,
+126,Lithuania,2014,
+126,Lithuania,2015,
+126,Lithuania,2016,
+256,Luxembourg,2012,
+256,Luxembourg,2013,
+256,Luxembourg,2014,
+256,Luxembourg,2015,
+256,Luxembourg,2016,
+129,Madagascar,2012,7400000.0
+129,Madagascar,2013,8199999.999999999
+129,Madagascar,2014,9100000.0
+129,Madagascar,2015,10000000.0
+129,Madagascar,2016,10700000.0
+130,Malawi,2012,3500000.0
+130,Malawi,2013,3700000.0
+130,Malawi,2014,4000000.0
+130,Malawi,2015,4300000.0
+130,Malawi,2016,4800000.0
+131,Malaysia,2012,1000000.0
+131,Malaysia,2013,1000000.0
+131,Malaysia,2014,900000.0
+131,Malaysia,2015,900000.0
+131,Malaysia,2016,900000.0
+132,Maldives,2012,
+132,Maldives,2013,
+132,Maldives,2014,
+132,Maldives,2015,
+132,Maldives,2016,
+133,Mali,2012,1000000.0
+133,Mali,2013,1000000.0
+133,Mali,2014,1000000.0
+133,Mali,2015,1000000.0
+133,Mali,2016,1100000.0
+134,Malta,2012,
+134,Malta,2013,
+134,Malta,2014,
+134,Malta,2015,
+134,Malta,2016,
+136,Mauritania,2012,300000.0
+136,Mauritania,2013,300000.0
+136,Mauritania,2014,300000.0
+136,Mauritania,2015,400000.0
+136,Mauritania,2016,500000.0
+137,Mauritius,2012,
+137,Mauritius,2013,
+137,Mauritius,2014,
+137,Mauritius,2015,
+137,Mauritius,2016,
+138,Mexico,2012,5500000.0
+138,Mexico,2013,5400000.0
+138,Mexico,2014,5200000.0
+138,Mexico,2015,5000000.0
+138,Mexico,2016,4800000.0
+141,Mongolia,2012,500000.0
+141,Mongolia,2013,500000.0
+141,Mongolia,2014,500000.0
+141,Mongolia,2015,500000.0
+141,Mongolia,2016,600000.0
+273,Montenegro,2012,
+273,Montenegro,2013,
+273,Montenegro,2014,
+273,Montenegro,2015,
+273,Montenegro,2016,
+143,Morocco,2012,1500000.0
+143,Morocco,2013,1400000.0
+143,Morocco,2014,1400000.0
+143,Morocco,2015,1300000.0
+143,Morocco,2016,1400000.0
+144,Mozambique,2012,7300000.0
+144,Mozambique,2013,7700000.0
+144,Mozambique,2014,8100000.0
+144,Mozambique,2015,8500000.0
+144,Mozambique,2016,8800000.0
+28,Myanmar,2012,7100000.0
+28,Myanmar,2013,6500000.0
+28,Myanmar,2014,6000000.0
+28,Myanmar,2015,5700000.0
+28,Myanmar,2016,5600000.0
+147,Namibia,2012,800000.0
+147,Namibia,2013,700000.0
+147,Namibia,2014,700000.0
+147,Namibia,2015,600000.0
+147,Namibia,2016,600000.0
+149,Nepal,2012,2500000.0
+149,Nepal,2013,2600000.0
+149,Nepal,2014,2700000.0
+149,Nepal,2015,2700000.0
+149,Nepal,2016,2800000.0
+150,Netherlands,2012,
+150,Netherlands,2013,
+150,Netherlands,2014,
+150,Netherlands,2015,
+150,Netherlands,2016,
+153,New Caledonia,2012,
+153,New Caledonia,2013,
+153,New Caledonia,2014,
+153,New Caledonia,2015,
+153,New Caledonia,2016,
+156,New Zealand,2012,
+156,New Zealand,2013,
+156,New Zealand,2014,
+156,New Zealand,2015,
+156,New Zealand,2016,
+157,Nicaragua,2012,1100000.0
+157,Nicaragua,2013,1100000.0
+157,Nicaragua,2014,1000000.0
+157,Nicaragua,2015,1000000.0
+157,Nicaragua,2016,1000000.0
+158,Niger,2012,1900000.0
+158,Niger,2013,1900000.0
+158,Niger,2014,2000000.0
+158,Niger,2015,2400000.0
+158,Niger,2016,3000000.0
+159,Nigeria,2012,11200000.0
+159,Nigeria,2013,12200000.0
+159,Nigeria,2014,13800000.0
+159,Nigeria,2015,16399999.999999998
+159,Nigeria,2016,21500000.0
+162,Norway,2012,
+162,Norway,2013,
+162,Norway,2014,
+162,Norway,2015,
+162,Norway,2016,
+221,Oman,2012,200000.0
+221,Oman,2013,200000.0
+221,Oman,2014,200000.0
+221,Oman,2015,200000.0
+221,Oman,2016,200000.0
+165,Pakistan,2012,37400000.0
+165,Pakistan,2013,38400000.0
+165,Pakistan,2014,39300000.0
+165,Pakistan,2015,39500000.0
+165,Pakistan,2016,39500000.0
+166,Panama,2012,400000.0
+166,Panama,2013,400000.0
+166,Panama,2014,400000.0
+166,Panama,2015,400000.0
+166,Panama,2016,400000.0
+169,Paraguay,2012,800000.0
+169,Paraguay,2013,800000.0
+169,Paraguay,2014,800000.0
+169,Paraguay,2015,800000.0
+169,Paraguay,2016,800000.0
+170,Peru,2012,2900000.0
+170,Peru,2013,2800000.0
+170,Peru,2014,2900000.0
+170,Peru,2015,2800000.0
+170,Peru,2016,2800000.0
+171,Philippines,2012,13700000.0
+171,Philippines,2013,14000000.0
+171,Philippines,2014,14200000.0
+171,Philippines,2015,14200000.0
+171,Philippines,2016,14200000.0
+173,Poland,2012,
+173,Poland,2013,
+173,Poland,2014,
+173,Poland,2015,
+173,Poland,2016,
+174,Portugal,2012,
+174,Portugal,2013,
+174,Portugal,2014,
+174,Portugal,2015,
+174,Portugal,2016,
+117,Republic of Korea,2012,
+117,Republic of Korea,2013,
+117,Republic of Korea,2014,
+117,Republic of Korea,2015,
+117,Republic of Korea,2016,
+183,Romania,2012,
+183,Romania,2013,
+183,Romania,2014,
+183,Romania,2015,
+183,Romania,2016,
+185,Russian Federation,2012,
+185,Russian Federation,2013,
+185,Russian Federation,2014,
+185,Russian Federation,2015,
+185,Russian Federation,2016,
+184,Rwanda,2012,3500000.0
+184,Rwanda,2013,3500000.0
+184,Rwanda,2014,3600000.0
+184,Rwanda,2015,4000000.0
+184,Rwanda,2016,4300000.0
+191,Saint Vincent and the Grenadines,2012,
+191,Saint Vincent and the Grenadines,2013,
+191,Saint Vincent and the Grenadines,2014,
+191,Saint Vincent and the Grenadines,2015,
+191,Saint Vincent and the Grenadines,2016,
+244,Samoa,2012,
+244,Samoa,2013,
+244,Samoa,2014,
+244,Samoa,2015,
+244,Samoa,2016,
+193,Sao Tome and Principe,2012,
+193,Sao Tome and Principe,2013,
+193,Sao Tome and Principe,2014,
+193,Sao Tome and Principe,2015,
+193,Sao Tome and Principe,2016,
+194,Saudi Arabia,2012,1700000.0
+194,Saudi Arabia,2013,1600000.0
+194,Saudi Arabia,2014,1700000.0
+194,Saudi Arabia,2015,1700000.0
+194,Saudi Arabia,2016,1800000.0
+195,Senegal,2012,1700000.0
+195,Senegal,2013,1800000.0
+195,Senegal,2014,1800000.0
+195,Senegal,2015,1800000.0
+195,Senegal,2016,1700000.0
+272,Serbia,2012,500000.0
+272,Serbia,2013,500000.0
+272,Serbia,2014,500000.0
+272,Serbia,2015,500000.0
+272,Serbia,2016,500000.0
+197,Sierra Leone,2012,1700000.0
+197,Sierra Leone,2013,1700000.0
+197,Sierra Leone,2014,1800000.0
+197,Sierra Leone,2015,1900000.0
+197,Sierra Leone,2016,1900000.0
+199,Slovakia,2012,200000.0
+199,Slovakia,2013,200000.0
+199,Slovakia,2014,200000.0
+199,Slovakia,2015,200000.0
+199,Slovakia,2016,100000.0
+198,Slovenia,2012,
+198,Slovenia,2013,
+198,Slovenia,2014,
+198,Slovenia,2015,
+198,Slovenia,2016,
+25,Solomon Islands,2012,
+25,Solomon Islands,2013,
+25,Solomon Islands,2014,
+25,Solomon Islands,2015,
+25,Solomon Islands,2016,
+202,South Africa,2012,2400000.0
+202,South Africa,2013,2600000.0
+202,South Africa,2014,2900000.0
+202,South Africa,2015,3200000.0
+202,South Africa,2016,3400000.0
+203,Spain,2012,
+203,Spain,2013,
+203,Spain,2014,
+203,Spain,2015,
+203,Spain,2016,
+38,Sri Lanka,2012,2500000.0
+38,Sri Lanka,2013,2400000.0
+38,Sri Lanka,2014,2300000.0
+38,Sri Lanka,2015,2200000.0
+38,Sri Lanka,2016,2300000.0
+276,Sudan,2012,9200000.0
+276,Sudan,2013,9300000.0
+276,Sudan,2014,9500000.0
+276,Sudan,2015,9700000.0
+276,Sudan,2016,10000000.0
+207,Suriname,2012,
+207,Suriname,2013,
+207,Suriname,2014,
+207,Suriname,2015,
+207,Suriname,2016,
+210,Sweden,2012,
+210,Sweden,2013,
+210,Sweden,2014,
+210,Sweden,2015,
+210,Sweden,2016,
+211,Switzerland,2012,
+211,Switzerland,2013,
+211,Switzerland,2014,
+211,Switzerland,2015,
+211,Switzerland,2016,
+216,Thailand,2012,5900000.0
+216,Thailand,2013,6100000.0
+216,Thailand,2014,6300000.0
+216,Thailand,2015,6300000.0
+216,Thailand,2016,6200000.0
+154,The former Yugoslav Republic of Macedonia,2012,
+154,The former Yugoslav Republic of Macedonia,2013,
+154,The former Yugoslav Republic of Macedonia,2014,
+154,The former Yugoslav Republic of Macedonia,2015,
+154,The former Yugoslav Republic of Macedonia,2016,
+176,Timor-Leste,2012,300000.0
+176,Timor-Leste,2013,300000.0
+176,Timor-Leste,2014,300000.0
+176,Timor-Leste,2015,300000.0
+176,Timor-Leste,2016,300000.0
+217,Togo,2012,1300000.0
+217,Togo,2013,1300000.0
+217,Togo,2014,1200000.0
+217,Togo,2015,1200000.0
+217,Togo,2016,1200000.0
+220,Trinidad and Tobago,2012,100000.0
+220,Trinidad and Tobago,2013,
+220,Trinidad and Tobago,2014,
+220,Trinidad and Tobago,2015,
+220,Trinidad and Tobago,2016,
+222,Tunisia,2012,500000.0
+222,Tunisia,2013,500000.0
+222,Tunisia,2014,500000.0
+222,Tunisia,2015,500000.0
+222,Tunisia,2016,600000.0
+223,Turkey,2012,
+223,Turkey,2013,
+223,Turkey,2014,
+223,Turkey,2015,
+223,Turkey,2016,
+213,Turkmenistan,2012,300000.0
+213,Turkmenistan,2013,300000.0
+213,Turkmenistan,2014,300000.0
+213,Turkmenistan,2015,300000.0
+213,Turkmenistan,2016,300000.0
+226,Uganda,2012,11800000.0
+226,Uganda,2013,12600000.0
+226,Uganda,2014,13800000.0
+226,Uganda,2015,15500000.0
+226,Uganda,2016,17200000.0
+230,Ukraine,2012,
+230,Ukraine,2013,
+230,Ukraine,2014,
+230,Ukraine,2015,1300000.0
+230,Ukraine,2016,1500000.0
+225,United Arab Emirates,2012,400000.0
+225,United Arab Emirates,2013,400000.0
+225,United Arab Emirates,2014,400000.0
+225,United Arab Emirates,2015,300000.0
+225,United Arab Emirates,2016,200000.0
+229,United Kingdom,2012,
+229,United Kingdom,2013,
+229,United Kingdom,2014,
+229,United Kingdom,2015,
+229,United Kingdom,2016,
+215,United Republic of Tanzania,2012,16200000.0
+215,United Republic of Tanzania,2013,16500000.0
+215,United Republic of Tanzania,2014,16800000.0
+215,United Republic of Tanzania,2015,17300000.0
+215,United Republic of Tanzania,2016,17800000.0
+231,United States of America,2012,
+231,United States of America,2013,
+231,United States of America,2014,
+231,United States of America,2015,
+231,United States of America,2016,
+234,Uruguay,2012,
+234,Uruguay,2013,
+234,Uruguay,2014,
+234,Uruguay,2015,
+234,Uruguay,2016,
+235,Uzbekistan,2012,2300000.0
+235,Uzbekistan,2013,2200000.0
+235,Uzbekistan,2014,2200000.0
+235,Uzbekistan,2015,2300000.0
+235,Uzbekistan,2016,2300000.0
+155,Vanuatu,2012,
+155,Vanuatu,2013,
+155,Vanuatu,2014,
+155,Vanuatu,2015,
+155,Vanuatu,2016,
+236,Venezuela (Bolivarian Republic of),2012,1400000.0
+236,Venezuela (Bolivarian Republic of),2013,1800000.0
+236,Venezuela (Bolivarian Republic of),2014,2400000.0
+236,Venezuela (Bolivarian Republic of),2015,3100000.0
+236,Venezuela (Bolivarian Republic of),2016,3700000.0
+237,Viet Nam,2012,11400000.0
+237,Viet Nam,2013,11100000.0
+237,Viet Nam,2014,10700000.0
+237,Viet Nam,2015,10400000.0
+237,Viet Nam,2016,10200000.0
+249,Yemen,2012,6500000.0
+249,Yemen,2013,7100000.0
+249,Yemen,2014,7900000.0
+249,Yemen,2015,8800000.0
+249,Yemen,2016,9500000.0
+251,Zambia,2012,7000000.0
+251,Zambia,2013,7000000.0
+251,Zambia,2014,7000000.0
+251,Zambia,2015,7100000.0
+251,Zambia,2016,7400000.0
+181,Zimbabwe,2012,6200000.0
+181,Zimbabwe,2013,6700000.0
+181,Zimbabwe,2014,7200000.0
+181,Zimbabwe,2015,7600000.0
+181,Zimbabwe,2016,7500000.0
